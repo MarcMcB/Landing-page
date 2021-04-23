@@ -1,0 +1,49 @@
+header {
+    position: fixed;
+    top: 0;
+    min-height: 75px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #DA6CA0;;
+  }
+
+  
+
+nav > ul {
+    width: 35vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    
+  }
+
+  #movie-clip{
+    margin-top: 50px;
+    display: flex;
+    
+    justify-content: center;
+  }
+  #movie-clip > iframe {
+    max-width: 560px;
+    width: 100%;
+  }
+
+  #form-section {
+    margin-top : 250px;
+    margin-left: 200px;
+    justify-content: right;
+  }
+  
+
+
+  #header-img {
+background-color: #DA6CA0;}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
